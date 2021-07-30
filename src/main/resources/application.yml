@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: "mongodb://localhost:27017"
+      database: sandbox-user-service
+
+server:
+  port: 8088
