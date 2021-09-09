@@ -2,6 +2,7 @@ package com.example.userservicesandbox.services;
 
 import com.example.userservicesandbox.domain.Log;
 import org.bson.types.ObjectId;
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
