@@ -16,7 +16,7 @@ public class LogProducerService {
     private KafkaMessageConverter kafkaMessageConverter;
 
     public void produce(LogDTO log) {
-        var test = kafkaMessageConverter.serialize(log);
-        kafkaTemplate.send("logs", test);
+        var message = kafkaMessageConverter.serialize(log);
+        kafkaTemplate.send("logs", message);
     }
 }
